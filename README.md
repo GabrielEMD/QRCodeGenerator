@@ -1,6 +1,6 @@
 # Generador de códigos QR
 
-"Español"
+## "Español"
 Este script de Python genera un código QR con propiedades específicas.
 
 ## Requisitos
@@ -51,9 +51,8 @@ python setup.py install
 
 Se generará una carpeta build con el ejecutable.
 
-"English"
-
 # QR Code Generator
+## "English"
 
 This Python script generates a QR code with specific properties.
 
