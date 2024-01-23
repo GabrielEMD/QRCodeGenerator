@@ -7,11 +7,12 @@ Este script de Python genera un código QR con propiedades específicas.
 
 - Python 3.x
 - Biblioteca qrcode
+- Biblioteca PIL (Pillow)
 
 Puedes instalar las bibliotecas necesarias utilizando el siguiente comando:
 
 ```bash
-pip install qrcode
+pip install qrcode Pillow
 ```
 Uso
 
@@ -36,6 +37,7 @@ Ajusta el nombre del QR con el parámetro "-n" o "--name"
 Ajusta si el QR tendrá transparencia con el parámetro "-t" o "--transparent"
 Ajusta el parámetro "--color" para elegir el color del código QR.
 Ajusta los parámetros "--size" y "--amount" en el script para controlar el tamaño y la densidad del código QR.
+Ajusta los parámetros "--image" y "--image-witdh" en el script para agregar una imagen y controlar su tamaño en el medio del código QR.
 
 Notas
 Asegúrate de tener Python instalado y las bibliotecas requeridas antes de ejecutar el script.
@@ -60,11 +62,12 @@ This Python script generates a QR code with specific properties.
 
 - Python 3.x
 - qrcode library
+- PIL (Pillow) library
 
 You can install the necessary libraries using the following command:
 
 ```bash
-pip install qrcode
+pip install qrcode Pillow
 ```
 Usage
 
@@ -88,6 +91,7 @@ Adjust the QR name with the "-n" or "--name" parameter.
 Specify if the QR should have transparency with the "-t" or "--transparent" parameter.
 Adjust the "--color" parameter to choose the color of the QR code.
 Adjust the "--size" and "--amount" parameters in the script to control the size and density of the QR code.
+Adjust the "--image" y "--image-witdh" parameters in the script to add an image y control the image size in the middle of the QR code.
 
 Notes
 Make sure to have Python installed and the required libraries before running the script.
