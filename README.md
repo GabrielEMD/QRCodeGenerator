@@ -6,8 +6,8 @@ Este script de Python genera un código QR con propiedades específicas.
 ## Requisitos
 
 - Python 3.x
-- Biblioteca qrcode
-- Biblioteca PIL (Pillow)
+- Biblioteca [qrcode](https://pypi.org/project/qrcode/)
+- Biblioteca [PIL (Pillow)](https://pypi.org/project/pillow/)
 
 Puedes instalar las bibliotecas necesarias utilizando el siguiente comando:
 
@@ -31,13 +31,15 @@ python main.py
 Ingresa la URL o mensaje cuando se te solicite
 Ingresa el nombre del archivo a crear (sin extensión)
 
-Personalización
-Ajusta el contenido del QR con el parámetro "-c" o "--content"
-Ajusta el nombre del QR con el parámetro "-n" o "--name"
-Ajusta si el QR tendrá transparencia con el parámetro "-t" o "--transparent"
-Ajusta el parámetro "--color" para elegir el color del código QR.
-Ajusta los parámetros "--size" y "--amount" en el script para controlar el tamaño y la densidad del código QR.
-Ajusta los parámetros "--image" y "--image-witdh" en el script para agregar una imagen y controlar su tamaño en el medio del código QR.
+| Personalización                                  | Descripción                                                              | Ejemplo de Uso                              |
+|--------------------------------------------------|--------------------------------------------------------------------------|---------------------------------------------|
+| `-c` o `--content`                               | Ajusta el contenido del QR.                                              | `main -c "Texto de ejemplo"`                |
+| `-n` o `--name`                                  | Ajusta el nombre del QR.                                                 | `main -n "NombreQR"`                        |
+| `-t` o `--transparent`                           | Ajusta si el QR tendrá transparencia.                                    | `main -t`                                   |
+| `--color`                                        | Ajusta el color del código QR.                                           | `main --color "white"`                      |
+| `--size` y `--amount`                            | Ajusta el tamaño y la densidad del código QR en el script.               | `main --size 200 --amount 3`                |
+| `--image` y `--image-width`                      | Ajusta la imagen y su tamaño en el centro del código QR en el script.    | `main --image "logo.png" --image-width 50`  |
+
 
 Notas
 Asegúrate de tener Python instalado y las bibliotecas requeridas antes de ejecutar el script.
@@ -61,8 +63,8 @@ This Python script generates a QR code with specific properties.
 ## Requirements
 
 - Python 3.x
-- qrcode library
-- PIL (Pillow) library
+- [qrcode](https://pypi.org/project/qrcode/) library
+- [PIL (Pillow)](https://pypi.org/project/pillow/) library
 
 You can install the necessary libraries using the following command:
 
@@ -85,13 +87,15 @@ python main.py
 Enter the URL or message when prompted.
 Enter the desired file name to create (without extension).
 
-Customization
-Adjust the QR content with the "-c" or "--content" parameter.
-Adjust the QR name with the "-n" or "--name" parameter.
-Specify if the QR should have transparency with the "-t" or "--transparent" parameter.
-Adjust the "--color" parameter to choose the color of the QR code.
-Adjust the "--size" and "--amount" parameters in the script to control the size and density of the QR code.
-Adjust the "--image" y "--image-witdh" parameters in the script to add an image y control the image size in the middle of the QR code.
+| Customization                                    | Description                                                               | Example Usage                              |
+|--------------------------------------------------|---------------------------------------------------------------------------|--------------------------------------------|
+| `-c` or `--content`                              | Adjusts the content of the QR.                                            | `main -c "Example text"`                   |
+| `-n` or `--name`                                 | Adjusts the name of the QR.                                               | `main -n "QRName"`                         |
+| `-t` or `--transparent`                          | Adjusts whether the QR will have transparency.                            | `main -t`                                  |
+| `--color`                                        | Adjusts the color of the QR code.                                         | `main --color "white"`                     |
+| `--size` and `--amount`                          | Adjusts the size and density of the QR code in the script.                | `main --size 200 --amount 3`               |
+| `--image` and `--image-width`                    | Adjusts the image and its size in the center of the QR code in the script.| `main --image "logo.png" --image-width 50` |
+
 
 Notes
 Make sure to have Python installed and the required libraries before running the script.
